@@ -6,7 +6,7 @@ An OSX widget for at-a-glance info on AWS EC2 instances.
 How to use
 -----
 
-First, you must have the AWS CLI tools installed (command line tools).  To do this, type `pip install awscli` in a Terminal window.  The application uses AWS CLI calls under the hood to get the information it needs.
+First, you must have the AWS CLI tools installed (command line tools) at `/usr/local/bin/aws`.  To do this, type `pip install awscli` in a Terminal window.  The application uses AWS CLI calls under the hood to get the information it needs.
 
 Next, open the project in XCode.  Compile it and select "Distribute" to generate EC2D2.app.  Once you've generated it, feel free to drag and drop it to your Applications directory.  We even go to System Preferences -> Users and add it as a startup item!
 
