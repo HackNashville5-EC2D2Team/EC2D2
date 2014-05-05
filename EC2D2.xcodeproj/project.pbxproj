@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C011A1991916DAD100FAC3DC /* ec2d2-16.png in Resources */ = {isa = PBXBuildFile; fileRef = C011A1981916DAD100FAC3DC /* ec2d2-16.png */; };
+		C03E57691914833700A68B7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03E57681914833700A68B7F /* Cocoa.framework */; };
+		C03E57731914833700A68B7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C03E57711914833700A68B7F /* InfoPlist.strings */; };
+		C03E57751914833700A68B7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E57741914833700A68B7F /* main.m */; };
+		C03E57791914833700A68B7F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C03E57771914833700A68B7F /* Credits.rtf */; };
+		C03E577C1914833700A68B7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E577B1914833700A68B7F /* AppDelegate.m */; };
+		C03E577F1914833700A68B7F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03E577D1914833700A68B7F /* MainMenu.xib */; };
+		C03E57811914833700A68B7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03E57801914833700A68B7F /* Images.xcassets */; };
+		C03E57881914833700A68B7F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03E57871914833700A68B7F /* XCTest.framework */; };
+		C03E57891914833700A68B7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03E57681914833700A68B7F /* Cocoa.framework */; };
+		C03E57911914833700A68B7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C03E578F1914833700A68B7F /* InfoPlist.strings */; };
+		C03E57931914833700A68B7F /* HN5_StatusMenuIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E57921914833700A68B7F /* HN5_StatusMenuIconTests.m */; };
+		C03E57A519154FDB00A68B7F /* AmazonEC2Instance.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E57A219154FDB00A68B7F /* AmazonEC2Instance.m */; };
+		C03E57A619154FDB00A68B7F /* AmazonEC2ToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E57A419154FDB00A68B7F /* AmazonEC2ToolKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C03E578A1914833700A68B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C03E575D1914833700A68B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C03E57641914833700A68B7F;
+			remoteInfo = "HN5-StatusMenuIcon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C011A1981916DAD100FAC3DC /* ec2d2-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ec2d2-16.png"; sourceTree = "<group>"; };
+		C03E57651914833700A68B7F /* EC2D2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EC2D2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03E57681914833700A68B7F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C03E576B1914833700A68B7F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C03E576C1914833700A68B7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C03E576D1914833700A68B7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C03E57701914833700A68B7F /* EC2D2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EC2D2-Info.plist"; sourceTree = "<group>"; };
+		C03E57721914833700A68B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C03E57741914833700A68B7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C03E57761914833700A68B7F /* EC2D2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EC2D2-Prefix.pch"; sourceTree = "<group>"; };
+		C03E57781914833700A68B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C03E577A1914833700A68B7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C03E577B1914833700A68B7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C03E577E1914833700A68B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C03E57801914833700A68B7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C03E57861914833700A68B7F /* EC2D2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EC2D2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03E57871914833700A68B7F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C03E578E1914833700A68B7F /* EC2D2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EC2D2Tests-Info.plist"; sourceTree = "<group>"; };
+		C03E57901914833700A68B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C03E57921914833700A68B7F /* HN5_StatusMenuIconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HN5_StatusMenuIconTests.m; sourceTree = "<group>"; };
+		C03E57A119154FDB00A68B7F /* AmazonEC2Instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AmazonEC2Instance.h; path = ../AmazonEC2Instance.h; sourceTree = "<group>"; };
+		C03E57A219154FDB00A68B7F /* AmazonEC2Instance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AmazonEC2Instance.m; path = ../AmazonEC2Instance.m; sourceTree = "<group>"; };
+		C03E57A319154FDB00A68B7F /* AmazonEC2ToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AmazonEC2ToolKit.h; path = ../AmazonEC2ToolKit.h; sourceTree = "<group>"; };
+		C03E57A419154FDB00A68B7F /* AmazonEC2ToolKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AmazonEC2ToolKit.m; path = ../AmazonEC2ToolKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C03E57621914833700A68B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03E57691914833700A68B7F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03E57831914833700A68B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03E57891914833700A68B7F /* Cocoa.framework in Frameworks */,
+				C03E57881914833700A68B7F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C03E575C1914833700A68B7F = {
+			isa = PBXGroup;
+			children = (
+				C03E576E1914833700A68B7F /* R2D2 */,
+				C03E578C1914833700A68B7F /* R2D2Tests */,
+				C03E57671914833700A68B7F /* Frameworks */,
+				C03E57661914833700A68B7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C03E57661914833700A68B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03E57651914833700A68B7F /* EC2D2.app */,
+				C03E57861914833700A68B7F /* EC2D2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03E57671914833700A68B7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C03E57681914833700A68B7F /* Cocoa.framework */,
+				C03E57871914833700A68B7F /* XCTest.framework */,
+				C03E576A1914833700A68B7F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C03E576A1914833700A68B7F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C03E576B1914833700A68B7F /* AppKit.framework */,
+				C03E576C1914833700A68B7F /* CoreData.framework */,
+				C03E576D1914833700A68B7F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C03E576E1914833700A68B7F /* R2D2 */ = {
+			isa = PBXGroup;
+			children = (
+				C03E57A119154FDB00A68B7F /* AmazonEC2Instance.h */,
+				C03E57A219154FDB00A68B7F /* AmazonEC2Instance.m */,
+				C03E57A319154FDB00A68B7F /* AmazonEC2ToolKit.h */,
+				C03E57A419154FDB00A68B7F /* AmazonEC2ToolKit.m */,
+				C03E577A1914833700A68B7F /* AppDelegate.h */,
+				C03E577B1914833700A68B7F /* AppDelegate.m */,
+				C03E577D1914833700A68B7F /* MainMenu.xib */,
+				C03E57801914833700A68B7F /* Images.xcassets */,
+				C03E576F1914833700A68B7F /* Supporting Files */,
+			);
+			name = R2D2;
+			path = "HN5-StatusMenuIcon";
+			sourceTree = "<group>";
+		};
+		C03E576F1914833700A68B7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C011A1981916DAD100FAC3DC /* ec2d2-16.png */,
+				C03E57701914833700A68B7F /* EC2D2-Info.plist */,
+				C03E57711914833700A68B7F /* InfoPlist.strings */,
+				C03E57741914833700A68B7F /* main.m */,
+				C03E57761914833700A68B7F /* EC2D2-Prefix.pch */,
+				C03E57771914833700A68B7F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C03E578C1914833700A68B7F /* R2D2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C03E57921914833700A68B7F /* HN5_StatusMenuIconTests.m */,
+				C03E578D1914833700A68B7F /* Supporting Files */,
+			);
+			name = R2D2Tests;
+			path = "HN5-StatusMenuIconTests";
+			sourceTree = "<group>";
+		};
+		C03E578D1914833700A68B7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C03E578E1914833700A68B7F /* EC2D2Tests-Info.plist */,
+				C03E578F1914833700A68B7F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C03E57641914833700A68B7F /* EC2D2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03E57961914833700A68B7F /* Build configuration list for PBXNativeTarget "EC2D2" */;
+			buildPhases = (
+				C03E57611914833700A68B7F /* Sources */,
+				C03E57621914833700A68B7F /* Frameworks */,
+				C03E57631914833700A68B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EC2D2;
+			productName = "HN5-StatusMenuIcon";
+			productReference = C03E57651914833700A68B7F /* EC2D2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C03E57851914833700A68B7F /* EC2D2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03E57991914833700A68B7F /* Build configuration list for PBXNativeTarget "EC2D2Tests" */;
+			buildPhases = (
+				C03E57821914833700A68B7F /* Sources */,
+				C03E57831914833700A68B7F /* Frameworks */,
+				C03E57841914833700A68B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C03E578B1914833700A68B7F /* PBXTargetDependency */,
+			);
+			name = EC2D2Tests;
+			productName = "HN5-StatusMenuIconTests";
+			productReference = C03E57861914833700A68B7F /* EC2D2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C03E575D1914833700A68B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Peter Kaminski & Zach McCormick";
+				TargetAttributes = {
+					C03E57851914833700A68B7F = {
+						TestTargetID = C03E57641914833700A68B7F;
+					};
+				};
+			};
+			buildConfigurationList = C03E57601914833700A68B7F /* Build configuration list for PBXProject "EC2D2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C03E575C1914833700A68B7F;
+			productRefGroup = C03E57661914833700A68B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C03E57641914833700A68B7F /* EC2D2 */,
+				C03E57851914833700A68B7F /* EC2D2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C03E57631914833700A68B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03E57731914833700A68B7F /* InfoPlist.strings in Resources */,
+				C03E57811914833700A68B7F /* Images.xcassets in Resources */,
+				C03E57791914833700A68B7F /* Credits.rtf in Resources */,
+				C03E577F1914833700A68B7F /* MainMenu.xib in Resources */,
+				C011A1991916DAD100FAC3DC /* ec2d2-16.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03E57841914833700A68B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03E57911914833700A68B7F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C03E57611914833700A68B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03E577C1914833700A68B7F /* AppDelegate.m in Sources */,
+				C03E57751914833700A68B7F /* main.m in Sources */,
+				C03E57A519154FDB00A68B7F /* AmazonEC2Instance.m in Sources */,
+				C03E57A619154FDB00A68B7F /* AmazonEC2ToolKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03E57821914833700A68B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03E57931914833700A68B7F /* HN5_StatusMenuIconTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C03E578B1914833700A68B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C03E57641914833700A68B7F /* EC2D2 */;
+			targetProxy = C03E578A1914833700A68B7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C03E57711914833700A68B7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03E57721914833700A68B7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C03E57771914833700A68B7F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03E57781914833700A68B7F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C03E577D1914833700A68B7F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03E577E1914833700A68B7F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C03E578F1914833700A68B7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03E57901914833700A68B7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C03E57941914833700A68B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C03E57951914833700A68B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C03E57971914833700A68B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HN5-StatusMenuIcon/EC2D2-Prefix.pch";
+				INFOPLIST_FILE = "HN5-StatusMenuIcon/EC2D2-Info.plist";
+				PRODUCT_NAME = EC2D2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C03E57981914833700A68B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HN5-StatusMenuIcon/EC2D2-Prefix.pch";
+				INFOPLIST_FILE = "HN5-StatusMenuIcon/EC2D2-Info.plist";
+				PRODUCT_NAME = EC2D2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C03E579A1914833700A68B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HN5-StatusMenuIcon.app/Contents/MacOS/HN5-StatusMenuIcon";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HN5-StatusMenuIcon/HN5-StatusMenuIcon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HN5-StatusMenuIconTests/EC2D2Tests-Info.plist";
+				PRODUCT_NAME = EC2D2Tests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C03E579B1914833700A68B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HN5-StatusMenuIcon.app/Contents/MacOS/HN5-StatusMenuIcon";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HN5-StatusMenuIcon/HN5-StatusMenuIcon-Prefix.pch";
+				INFOPLIST_FILE = "HN5-StatusMenuIconTests/EC2D2Tests-Info.plist";
+				PRODUCT_NAME = EC2D2Tests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C03E57601914833700A68B7F /* Build configuration list for PBXProject "EC2D2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03E57941914833700A68B7F /* Debug */,
+				C03E57951914833700A68B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03E57961914833700A68B7F /* Build configuration list for PBXNativeTarget "EC2D2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03E57971914833700A68B7F /* Debug */,
+				C03E57981914833700A68B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03E57991914833700A68B7F /* Build configuration list for PBXNativeTarget "EC2D2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03E579A1914833700A68B7F /* Debug */,
+				C03E579B1914833700A68B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C03E575D1914833700A68B7F /* Project object */;
+}
