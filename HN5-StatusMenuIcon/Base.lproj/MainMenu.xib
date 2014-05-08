@@ -701,10 +701,10 @@
                         <action selector="orderFrontStandardAboutPanel:" target="-1" id="2zc-FQ-8fl"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Quit" id="59o-ou-knu">
+                <menuItem title="Quit" id="Wrr-S2-Xhn">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="terminate:" target="-1" id="cP3-dS-Q6X"/>
+                        <action selector="terminate:" target="-1" id="dkj-JT-edp"/>
                     </connections>
                 </menuItem>
             </items>

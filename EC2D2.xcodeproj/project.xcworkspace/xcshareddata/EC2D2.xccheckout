@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3E629333-8531-4DD9-8129-2BFB6BC4C041</string>
+	<string>306D8232-79F0-4981-8D2B-F0771731ACE0</string>
 	<key>IDESourceControlProjectName</key>
 	<string>EC2D2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>551F0E80-694C-488C-AD07-190DAD479E55</key>
-		<string>ssh://zachmccormick.me/hacknashvilleec2widget/ec2widget.git</string>
+		<key>084A12C1-74FC-4BE7-87E2-DC11DBCCE5BD</key>
+		<string>https://github.com/HackNashville5-EC2D2Team/EC2D2.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>EC2D2.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>551F0E80-694C-488C-AD07-190DAD479E55</key>
+		<key>084A12C1-74FC-4BE7-87E2-DC11DBCCE5BD</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://zachmccormick.me/hacknashvilleec2widget/ec2widget.git</string>
+	<string>https://github.com/HackNashville5-EC2D2Team/EC2D2.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>551F0E80-694C-488C-AD07-190DAD479E55</string>
+	<string>084A12C1-74FC-4BE7-87E2-DC11DBCCE5BD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>551F0E80-694C-488C-AD07-190DAD479E55</string>
+			<string>084A12C1-74FC-4BE7-87E2-DC11DBCCE5BD</string>
 			<key>IDESourceControlWCCName</key>
-			<string>EC2Widget</string>
+			<string>EC2D2</string>
 		</dict>
 	</array>
 </dict>
